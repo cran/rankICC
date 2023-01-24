@@ -148,9 +148,9 @@ rankICC3levels_gamma3 <- function(x, level2, level3, weights = c("level1", "leve
   mi <- lapply(tapply(level2, level3, unique), length)
   if(sum(mi==1)){
     idx <- names(mi[mi > 1])
+    x <- x[level3 %in% idx]
     level2 <- level2[level3 %in% idx]
     level3 <- level3[level3 %in% idx]
-    x <- x[level3 %in% idx]
     warning("level-3 units with only one level-2 unit were removed")
   }
   level3 <- factor(level3, levels = unique(level3))
