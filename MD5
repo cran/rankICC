@@ -1,7 +1,7 @@
-9b6a01647fba3893836c42154bc3269c *DESCRIPTION
+be32f3e8fcca88dd1d82b7c5b93bb97d *DESCRIPTION
 58a1812204fa49d39227bf66d80aefd5 *NAMESPACE
-e3f7141ca6d3e6143f7e3769a6f1ea9d *R/rankICC.R
-9ec0bd1db631cce1316cfb5bbb915e3c *R/rankICC3levels.R
+870fb24205b5027035bd32f9f9d9cdc9 *R/rankICC.R
+ff4fd3c7de5cc24421fb4f5b211bb237 *R/rankICC3levels.R
 fd7566a325524bdc4d3c91183cab4f63 *README.md
-807b5c487c978df471bebacd368599af *man/rankICC.Rd
-2bca3802531385e589aca972cfc9f5d6 *man/rankICC3levels.Rd
+4abdac6f78c343af6ca45b13be9fdea7 *man/rankICC.Rd
+b94a854044cd0ab472bc21b50a53a19c *man/rankICC3levels.Rd
